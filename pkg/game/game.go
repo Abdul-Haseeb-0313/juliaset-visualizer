@@ -40,9 +40,6 @@ func (g *Game) Draw(screen *ebiten.Image) {
 	cx, cy := convToCod(float64(cursorX), float64(cursorY));
 
 	
-	
-	fmt.Println(cx, cy)
-	
 	for i := 0; i <= window.WIDTH; i++{
 		for j := 0; j <= window.HEIGHT; j++{
 			px, py := convToCod(float64(i), float64(j));
